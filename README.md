@@ -6,6 +6,12 @@ student_chat_portal in python {{{{ school project }}}} messaging application BY 
         README.TXT                     ----->   Documentation
         student_chat_application.py   ------->  Only Command line tool (For school Project)
         main.py                        ------->  GUI tool for the same
+        
+# Modules:
+
+        pip install time
+        pip install PySimpleGUI
+        pip install os
 # BUGS :
         1.) sql injections
         2.)password visibility/no encryption
