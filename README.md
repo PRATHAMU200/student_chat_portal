@@ -1,6 +1,11 @@
 # student_chat_portal 
 student_chat_portal in python {{{{ school project }}}} messaging application BY Pratham Upadhyay.
 
+# Introduction to files:
+
+        README.TXT                     ----->   Documentation
+        student_chat_application.py   ------->  Only Command line tool (For school Project)
+        main.py                        ------->  GUI tool for the same
 # BUGS :
         1.) sql injections
         2.)password visibility/no encryption
