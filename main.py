@@ -97,7 +97,7 @@ while True:
         layout = [[sg.Text('LOGIN PAGE')],
                   [sg.Text(key='output', size=(40, 1))],
                   [sg.Text('Username'), sg.InputText(key='username')],
-                  [sg.Text('Password'), sg.InputText(key='password')],
+                  [sg.Text('Password'), sg.InputText(key='password'password_char='*')],
                   [sg.Button('Login'), sg.Button('Cancel'), sg.Button('Register')],
                   [sg.Text(key='output2')]]
 
