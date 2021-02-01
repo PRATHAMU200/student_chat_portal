@@ -1,0 +1,20 @@
+mysql> SELECT user, host FROM mysql.user WHERE user = 'youruser';
+
+The username is wrong.
+The password is wrong.
+The IP address/hostname you're connecting from is not one that MySQL has been configured to allow for that user.
+The user does not have access to the specified database.
+
+GRANT ALL ON db1.* TO 'jeffrey'@'localhost';
+GRANT ALL  TO 'jeffrey'@'localhost';
+
+
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY 'password';
+
+
+import mysql.connector as mysql
+db_connection = mysql.connect(host=HOST, database=DATABASE, user=USER, password=PASSWORD)
+
+GRANT ALL ON *.* TO 'python-user'@'%';
+
+GRANT ALL ON *.* TO 'root'@'localhost';
