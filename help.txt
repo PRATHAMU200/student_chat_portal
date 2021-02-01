@@ -18,3 +18,5 @@ db_connection = mysql.connect(host=HOST, database=DATABASE, user=USER, password=
 GRANT ALL ON *.* TO 'python-user'@'%';
 
 GRANT ALL ON *.* TO 'root'@'localhost';
+
+FLUSH PRIVILEGES;
